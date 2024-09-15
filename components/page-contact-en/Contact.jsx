@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import { notification } from "antd";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 function Contact() {
 	const [formData, setFormData] = useState({
@@ -77,7 +77,7 @@ function Contact() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 
-		const router = useRouter();
+		// const router = useRouter();
 
 		try {
 			const response = await axios.post(
@@ -97,7 +97,7 @@ function Contact() {
 				});
 
 				// Route to the contact page
-				router.push("/page-contact");
+				// router.push("/page-contact");
 			} else {
 				notification.error({
 					message: "Error",
