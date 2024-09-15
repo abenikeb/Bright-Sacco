@@ -3,10 +3,10 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import { notification } from "antd";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 function Contact() {
-	const router = useRouter();
+	// const router = useRouter();
 	const [termsAccepted, setTermsAccepted] = useState(false); // Terms & Conditions state
 	const [error, setError] = useState("");
 	const [loading, setLoading] = useState(false); // Loading state
@@ -113,7 +113,7 @@ function Contact() {
 					description: "Form submitted successfully",
 				});
 				// Route to the contact page
-				router.push("/page-contact");
+				// router.push("/page-contact");
 			} else {
 				notification.error({
 					message: "Error",
