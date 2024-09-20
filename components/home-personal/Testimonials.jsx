@@ -36,12 +36,11 @@ function Testimonials() {
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
 						<div>
+							<br />
 							<h3 className="fw-600 fz-50 text-u d-rotate wow">
-								<span className="rotate-text">
-									በደንበኞች <span className="fw-200">የታመነ።</span>
-								</span>
+								<span className="rotate-text">ምስክርነቶች</span>
 							</h3>
-							<span className="sub-title main-color mb-5">ምስክርነቶች</span>
+							{/* <span className="sub-title main-color mb-5">ምስክርነቶች</span> */}
 						</div>
 						<div className="ml-auto">
 							<div className="swiper-arrow-control">
@@ -71,7 +70,7 @@ function Testimonials() {
 									<h6 className="sub-title mb-15">የፕሮጀክት አስተዳደር ጥራት</h6>
 									<div className="text">
 										<p>
-											“ በዚህ ቦታ ውስጥ ለብዙ ሰዎች ቀጥሬያለሁ ዓመታት እና እኔ ይህን ደረጃ አይቼ አላውቅም
+											“በዚህ ቦታ ውስጥ ለብዙ ሰዎች ቀጥሬያለሁ ዓመታት እና እኔ ይህን ደረጃ አይቼ አላውቅም
 											ሙያዊነት.”
 										</p>
 									</div>
@@ -85,7 +84,7 @@ function Testimonials() {
 										</div>
 										<div className="ml-20">
 											<h6 className="fz-18">አብርሃም ተክለማርያም</h6>
-											<span className="p-color opacity-8 fz-15 mt-5">
+											<span className="p-colors opacity-8 fz-15 mt-5">
 												ብራይት ደንበኛ
 											</span>
 										</div>
@@ -99,8 +98,7 @@ function Testimonials() {
 									<h6 className="sub-title mb-15">የአቅርቦት ጥራት</h6>
 									<div className="text">
 										<p>
-											“ በዚህ ቦታ ውስጥ ለብዙ ሰዎች ቀጥሬያለሁ ዓመታት እና ይህን የሙያ ደረጃ አይቼ
-											አላውቅም.”
+											“በዚህ ቦታ ውስጥ ለብዙ ሰዎች ቀጥሬያለሁ ዓመታት እና ይህን የሙያ ደረጃ አይቼ አላውቅም.”
 										</p>
 									</div>
 								</div>

@@ -3,32 +3,32 @@ import React from "react";
 function Team() {
 	let data = [
 		{
-			img: "/assets/imgs/team/5.jpg",
-			name: "ጌትነት በቀለ",
-			subName: "ዋና ሥራ አስፈፃሚ",
+			img: "/assets/imgs/team/1.png",
+			name: "ጌታቸው ዘውዱ",
+			subName: "ሰብሳቢ",
 		},
 		{
-			img: "/assets/imgs/team/t2.jpg",
-			name: "Petros Alemayehu",
-			subName: "ዋና የፋይናንስ ኦፊሰር",
+			img: "/assets/imgs/team/2.png",
+			name: "ሂሩት አዳሙ",
+			subName: "ፀሀፊ",
 		},
 		{
-			img: "/assets/imgs/team/t3.jpg",
-			name: "ሳሙኤል ተስፋዬ",
-			subName: "የግብይት ዳይሬክተር",
+			img: "/assets/imgs/team/3.png",
+			name: "ስለሺ ምትኬ",
+			subName: "ሂሳብ ሹም",
 		},
 		{
-			img: "/assets/imgs/team/t4.jpg",
+			img: "/assets/imgs/team/4.png",
 			name: "ሳባ ታደሰ",
 			subName: "ኦፕሬሽንስ አስተዳዳሪ",
 		},
 		{
-			img: "/assets/imgs/team/t2.jpg",
+			img: "/assets/imgs/team/5.png",
 			name: "ገነት ሀይሉ",
 			subName: "የሰው ሀብት ሥራ አስኪያጅ",
 		},
 		{
-			img: "/assets/imgs/team/t3.jpg",
+			img: "/assets/imgs/team/1.png",
 			name: "አህመድ ካሊድ",
 			subName: "የሰው ሀብት ሥራ አስኪያጅ",
 		},
@@ -85,7 +85,9 @@ function Team() {
 								<div className="cont pt-30">
 									<div className="info">
 										<h6 className="secondary-color">{item.name}</h6>
-										<span className="fz-14 p-color mt-10 ">{item.subName}</span>
+										<span className="fz-14 p-colors secondary-color mt-10 ">
+											{item.subName}
+										</span>
 									</div>
 								</div>
 							</div>

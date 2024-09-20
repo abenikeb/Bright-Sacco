@@ -106,7 +106,7 @@ function Navbar() {
 						<li className="nav-item">
 							<Link className="nav-link" href={getLink("/page-services")}>
 								<span className="rolling-text">
-									{language === "am" ? "ተግባራቶቻችን" : "Services"}
+									{language === "am" ? "አገልግሎቶቻችን" : "Services"}
 								</span>
 							</Link>
 						</li>

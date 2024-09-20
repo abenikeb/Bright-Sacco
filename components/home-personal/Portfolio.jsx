@@ -62,7 +62,7 @@ function Portfolio() {
 						<div className="ml-auto vi-more">
 							<a
 								href="/portfolio-grid"
-								className="butn butn-sm butn-bord radius-30 secondary-color">
+								className="butn butn-sm butn-bord-2nd radius-30 secondary-color">
 								<span>ሁሉንም ይመልከቱ</span>
 							</a>
 							<span className="icon ti-arrow-top-right"></span>
@@ -77,21 +77,24 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												ወለድ
+												መደበኛ
 											</a>
 											<a href="/portfolio-grid" className="tag">
 												ቁጠባ
 											</a>
 										</div>
-										<h4>ወለድ የማይታሰብበት ቁጠባ</h4>
+										<h4>መደበኛ ቁጠባ</h4>
 									</div>
+									<br />
 									<div>
 										<p>
-											ወለድ አልባ ቁጠባ ማለት ከእምነት ጋር በተያያዘ ወይም በሌላ ምክንያት (ገንዘባቸውን
-											በአስተማማኝ ቦታ እንዲቀመጥላቸው በሚፈልጉ ወይም በሌላ ሁኔታ) ደንበኞች ያለምንም የወለድ
-											ክፍያ በፋይናንስ ተቋማት የሚያስቀምጡት ወይም የሚቆጥቡት የቁጠባ ዓይነት ነው ፡፡
+											የማህበሩ አባል የሆኑ ግለሰቦች በመደበኛነት የሚቆጥቡት ገንዘብ ሲሆን መጠኑም በወር ብር
+											400.00፣ በሳምንት ብር 200.00፣ በቀን ብር 50.00 ሲሆን፡፡ የወለድ መጠኑ በዓመት
+											7.5% በመቶ ይሆናል፡፡ መደበኛ ቁጠባ አባሉ ከማህበሩ እስካልተሰናበተ ድረስ ወጪ ሆኖ
+											ሊከፈል አይችልም፡፡ ሆኖም ያለዋስትና የብድር ፎርማሊቲዎችን በሟሟላት 95% በመቶ የቁጠባ
+											እና የዕጣ መጠኑን በብድር ወስዶ ወለዱን ሊጠቀምበት ይችላል፡፡
 										</p>
-										<a href="/project-details" className="underline mt-15">
+										<a href="/page-services" className="underline mt-15">
 											<span className="text main-color sub-title">
 												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>
@@ -113,20 +116,21 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												የንግድ
+												የቤት
 											</a>
 											<a href="/portfolio-grid" className="tag">
-												ብድር
+												ቁጠባ
 											</a>
 										</div>
-										<h4>የንግድ ብድር</h4>
+										<h4>የቤት ቁጠባ</h4>
 									</div>
+									<br />
 									<div>
 										<p>
-											 ለከተማ ግብርና ስራ የሚሰጥ ብድር  ለአነስተኛ ንግድ ስራ የሚሰጥ ብድር፣ 
-											ለአገልግሎት ስራ የሚሰጥ ብድር፣
+											አባላት የቤት ብድር ለመውሰድ በቅድሚያ ከሶስት ወራት ለማያንስ ጊዜ ገደብ ውስጥ የብድሩን
+											ከ25 አስከ 40 በመቶ ቅድመ መቆጠብ ይጠበቅባቸዋል፡፡
 										</p>
-										<a href="/project-details" className="underline mt-15">
+										<a href="/page-services" className="underline mt-15">
 											<span className="text main-color sub-title">
 												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>
@@ -148,20 +152,20 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												 የመኖሪያ ቤት
+												የመኪና
 											</a>
 											<a href="/portfolio-grid" className="tag">
-												 የኮንደሚኒየም ግንባታ ማስጨረሻ
+												ቁጠባ
 											</a>
 										</div>
-										<h4>የቤት ግዥ፣ መስሪያ እና ማደሻ ብድር</h4>
+										<h4>የመኪና ቁጠባ</h4>
 									</div>
 									<div>
 										<p>
-											 የኮንደሚኒየም ግንባታ ማስጨረሻ  የ መኪና ግዥ የሚሰጥ ብድር  የቤት መኪና  የንግድ
-											መኪና  የታክሲ አገልግሎት
+											አባላት የመኪና ብድር ለመውሰድ በቅድሚያ ከሶስት ወራት ለማያንስ ጊዜ ገደብ ውስጥ የብድሩን
+											ከ25 አስከ 40 በመቶ ቅድመ መቆጠብ ይጠበቅባቸዋል፡፡
 										</p>
-										<a href="/project-details" className="underline mt-15">
+										<a href="/page-services" className="underline mt-15">
 											<span className="text main-color sub-title">
 												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>
@@ -184,26 +188,24 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
-												ከመድህን
+												ለቤት ግዥ
 											</a>
 											<a href="/portfolio-grid" className="tag">
-												ኢንሹራንስ
+												ማደሻ
 											</a>
 										</div>
-										<h4> ከመድህን ወይም ኢንሹራንስ አግልግሎቶቹ የሚገኝ ጥቅም</h4>
+										<h4> ለቤት ግዥ፣ መስሪያና ማደሻ የሚሰጥ ብድር</h4>
 									</div>
+									<br />
 									<div>
 										<p>
-											• የመድህን ወይም ኢንሹራንስ አገልግሎት ተጠቃሚ የሆነ ቆጣቢ አባል በሞት በሚለይበት ወቅት
-											የሞት እና አሟሟት ማረጋገጫ ማስረጃ እንደቀረበ መድህን የተገባለት ቁጠባ እጥፍ እና የቀብር
-											ስነ ስርዓት ማስፈጸሚያ ማህበሩ የቀብር ማስፈፀሚያ መኪና ገዝቶ አገልግሎት ይሰጣል:: ይህ
-											ካልሆነ ብር 2000.00 የአባሉ የመኖሪያና የቀብር መፈጸሚያ እና ማስተዛዘኛ ብር
-											3000.00 በድምሩ 5000.00 በአባሉ መኖሪያ ቤት በመገኜት ለህጋዊ ወራሾች በህብረት ስራ
-											ማህበሩ ሊቀመንበር/ሥራ አስኪያጅ/ አማካይነት ይሰጣል፡፡
+											ህብረት ስራ ማህበራችን የአባሎቻችንን የቤት ፍላጎት ለማሟላት በዋናነት የምንሰራ ሲሆን
+											የመኖሪያ ቤት ግዥና መስሪያ ብርድር፣ የንግድ ቤት ግዥና መስሪያን የሚያካትት ሲሆን በልዩነት
+											የኮንዶሚኒዬም ግንባታ ማስጨረሻ የብድር አቅርቦት መጀመራችን ከሌላው ልዬ ያደርገናል፡፡
 										</p>
-										<a href="/project-details" className="underline mt-15">
+										<a href="/page-services" className="underline mt-15">
 											<span className="text main-color sub-title">
-												View Details <i className="ti-arrow-top-right"></i>
+												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>
 										</a>
 									</div>
@@ -229,15 +231,23 @@ function Portfolio() {
 												ቁጠባ
 											</a>
 										</div>
-										<h4>የህፃናት ቁጠባ</h4>
+										<h4>የልጆች ቁጠባ</h4>
 									</div>
+									<br />
 									<div>
 										<p>
-											 እድሜያቸው ከ18 አመት በታች የሆኑ ህፃናት በማህበራችን ቆጣቢ መሆን ይችላሉ  ህፃናት
-											ማህበራችን ላይ ቁጠባ ሲጀምሩ መመዝገቢያ አያስፈልጋቸውም  የህፃናት ቁጠባ ህብረት ስራ እና
-											የቁጠባ ባህልን ለህፃናት ማስለመድ በመሆኑ የቁጠባ መጠኑ ከ100.00 ይጀምራል፡፡
+											እድሜያቸው ከ18 አመት በታች የሆኑ ህፃናት በማህበራችን ቆጣቢ መሆን ይችላሉ፡፡ ህፃናት
+											ማህበራችን ላይ ቁጠባ ሲጀምሩ መመዝገቢያ አያስፈልጋቸውም፡፡ የህፃናት ቁጠባ ህብረት ስራ እና
+											የቁጠባ ባህልን ለህፃናት ማስለመድ በመሆኑ የቁጠባ መጠኑ ከ100.00 ይጀምራል፡፡ ህፃናት
+											ማህበራችን ላይ እየቆጠቡ ቆይተው እድሜያቸው 18 አመት ሲሞላ ያለ መመዝገቢያ ክፍያ ሌሎችን
+											መስፈርት ካሟሉ ማህበሩ ላይ ዕጣ በመግዛት አባል ይሆናሉ፡፡ ማህበሩ ላይ ህፃናት የሚቆጥቡት
+											የአባላትም አባል ያልሆኑም ወላጆች ልጆች መሆን ይችላሉ፡፡ ህፃናት ለቆጠቡት ቁጠባ ወለድ
+											ያገኛሉ መጠኑ 8.5 በመቶ ይሆናል፡፡ የቁጠባ ወለድ በቁጠባ ላይ የሚደመር እንጂ በየጊዜው
+											የሚከፈል አይደለም፡፡ የልጆች ቁጠባ ሂሳብ ከወላጆች ጋር በጣምራ የሚከፈት ሂሳብ በፈለጉት
+											ጊዜ ወጭ ማድረግ የሚችሉበት በስማቸው ብቻ የሚከፈት ቁጠባ እድሜያቸው 18 ሲሆን ብቻ ወጭ
+											ማድረግ እንዲችሉበት የሂሳብ አርዕስት ከፍተው ማስቀመጥ ይችላሉ፡፡
 										</p>
-										<a href="/project-details" className="underline mt-15">
+										<a href="/page-services" className="underline mt-15">
 											<span className="text main-color sub-title">
 												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
 											</span>

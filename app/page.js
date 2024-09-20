@@ -48,23 +48,9 @@ export default function Home() {
 						<Header />
 						<Marq />
 						<About />
-						<div className="sec-bottoms">
-							{/* <div className="main-bg d-flex align-items-center">
-								<h6 className="fz-14 fw-400 secondary-color">
-									በሀገር አቀፍ ዙሪያ <span className="fw-400"> ከ20+ በላይ ኩባንያዎች</span>
-									አብረን በመስራት እንገናኘለን።
-								</h6>
-							</div> */}
-						</div>
+						<div className="sec-bottoms"></div>
 						<Services />
-						<div className="sec-bottom">
-							<div className="main-bg d-flex align-items-center">
-								<h6 className="fz-14 fw-400 secondary-color">
-									በሀገር አቀፍ ዙሪያ <span className="fw-400"> ከ20+ በላይ ኩባንያዎች</span>
-									አብረን በመስራት እንገናኘለን።
-								</h6>
-							</div>
-						</div>
+						<div className="sec-bottom"></div>
 						<Portfolio />
 						{/* <Skills /> */}
 						<Testimonials />

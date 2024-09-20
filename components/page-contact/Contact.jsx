@@ -85,14 +85,6 @@ function Contact() {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-
-		// alert(JSON.stringify(formData));
-
-		// if (!termsAccepted) {
-		// 	setError("You must accept the Terms and Conditions.");
-		// 	return;
-		// }
-
 		setLoading(true);
 
 		try {
@@ -141,16 +133,14 @@ function Contact() {
 							<h2 className="contact-title">አድራሻ</h2>
 							<div className="morinfo mt-50 pb-30 bord-thin-bottom secondary-color">
 								<h6 className="mb-15 section-title">ዋና ቅርንጫፍ አድራሻ</h6>
-								<p className="address-details">
-									ገርጂ መብራት ሃይል ቦሌ ክፍለ ከተማ ፕላዝ 3ኛ ፎቅ ተልኳል።
-								</p>
+								<p className="address-details">አራት ኪሎ ንብ ባንክ 1ኛ ፎቅ</p>
 
 								{/* <!-- Main Branch Phone --> */}
 								<div className="contact-info mt-15">
 									<h6 className="contact-title">ስልክ</h6>
 									<p>
 										<a href="tel:+251913228892" className="contact-link">
-											+251 960401111 | +251 960111166
+											+251 960601111/960111166
 										</a>
 									</p>
 								</div>
@@ -162,18 +152,18 @@ function Contact() {
 										<a
 											href="mailto:support@brighsacco.com"
 											className="contact-link">
-											Support@brighsacco.com
+											info@brightsacco.coop
 										</a>
 									</p>
 								</div>
 							</div>
 
 							{/* <!-- Branch Address Section --> */}
-							<div className="morinfo mt-30 pb-30 bord-thin-bottom secondary-color">
+							{/* <div className="morinfo mt-30 pb-30 bord-thin-bottom secondary-color">
 								<h6 className="mb-15 section-title">የቅርንጫፍ አድራሻ</h6>
 								<p className="address-details">ቅርንጫፍ Bole፣ ሌላ ቦታ፣ አዲስ አበባ</p>
 
-								{/* <!-- Branch Phone --> */}
+								
 								<div className="contact-info mt-15">
 									<h6 className="contact-title">ስልክ</h6>
 									<p>
@@ -183,7 +173,7 @@ function Contact() {
 									</p>
 								</div>
 
-								{/* <!-- Branch Email --> */}
+								
 								<div className="contact-info">
 									<h6 className="contact-title">ኢሜይል</h6>
 									<p>
@@ -194,7 +184,7 @@ function Contact() {
 										</a>
 									</p>
 								</div>
-							</div>
+							</div> */}
 
 							{/* <!-- Social Media Icons --> */}
 							<div className="social-icon mt-50">
@@ -477,10 +467,10 @@ function Contact() {
 										onChange={handleCheckboxChange}
 									/>
 									<label htmlFor="terms" className="terms-label">
-										I agree to the
+										በውሎች እና ሁኔታዎች
 										<a href="/terms" target="_blank" className="terms-link">
 											{" "}
-											Terms and Conditions
+											እስማማለሁ።
 										</a>
 										.
 									</label>
@@ -490,87 +480,10 @@ function Contact() {
 									type="submit"
 									className="submit-btn"
 									disabled={!termsAccepted || loading}>
-									{loading ? <span className="spinner"></span> : "Submit"}
+									{loading ? <span className="spinner"></span> : "አስገባ"}
 								</button>
-
-								{/* <button
-									type="submit"
-									className="submit-btn"
-									disabled={!termsAccepted}>
-									Submit
-								</button> */}
 							</form>
 						</div>
-						{/* <div className="full-width">
-							<div className="sec-head mb-50">
-								<h6 className="sub-title main-color mb-15">Let&lsquo;s Chat</h6>
-								<h3 className="text-u ls1">
-									Send a <span className="fw-200">message</span>
-								</h3>
-							</div>
-							<form
-								id="contact-form"
-								className="form2"
-								method="post"
-								action="contact.php">
-								<div className="messages"></div>
-
-								<div className="controls row">
-									<div className="col-lg-6">
-										<div className="form-group mb-30">
-											<input
-												id="form_name"
-												type="text"
-												name="name"
-												placeholder="Name"
-												required="required"
-											/>
-										</div>
-									</div>
-
-									<div className="col-lg-6">
-										<div className="form-group mb-30">
-											<input
-												id="form_email"
-												type="email"
-												name="email"
-												placeholder="Email"
-												required="required"
-											/>
-										</div>
-									</div>
-
-									<div className="col-12">
-										<div className="form-group mb-30">
-											<input
-												id="form_subject"
-												type="text"
-												name="subject"
-												placeholder="Subject"
-											/>
-										</div>
-									</div>
-
-									<div className="col-12">
-										<div className="form-group">
-											<textarea
-												id="form_message"
-												name="message"
-												placeholder="Message"
-												rows="4"
-												required="required"></textarea>
-										</div>
-										<div className="mt-30">
-											<button
-												type="submit"
-												className="butn butn-full butn-bord radius-30 secondary-color">
-												<span className="text">Let&lsquo;s Talk</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</form>
-						</div> */}
 					</div>
 				</div>
 			</div>

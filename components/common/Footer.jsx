@@ -51,14 +51,14 @@ function Footer() {
 					<div className="col-lg-4">
 						<div className="column md-mb50">
 							<h6 className="sub-title mb-30">አድራሻ</h6>
-							<h6 className="p-color fw-400">
-								ገርጂ መብራት ሃይል ሸዋ ብሎጂ <br /> 3ኛ, #302
-							</h6>
+							<h6 className="p-colors fw-400">አራት ኪሎ ንብ ባንክ 1ኛ ፎቅ</h6>
 							<h6 className="mt-30 mb-15">
-								<a href="#0">bright@info.com</a>
+								<a href="#0">info@brightsacco.coop</a>
 							</h6>
 							<a href="#0" className="underline">
-								<span className="fz-22 main-color">+251 960401111</span>
+								<span className="fz-22 main-color">
+									+251 960601111/960111166
+								</span>
 							</a>
 						</div>
 					</div>

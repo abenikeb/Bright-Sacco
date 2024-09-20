@@ -9,15 +9,13 @@ function Services() {
 						<div>
 							<span className="sub-title main-color mb-5">የእኛ መገለጫ የሆኑ</span>
 							<h3 className="fw-600 fz-50 secondary-color text-u d-rotate wow">
-								<span className="rotate-text">
-									ተልዕኳችን እና <span className="fw-200">ርዕያችን</span>
-								</span>
+								<span className="rotate-text">አገልግሎቶቻችን</span>
 							</h3>
 						</div>
 						<div className="ml-auto vi-more secondary-color">
 							<a
 								href="/page-services"
-								className="butn butn-sm butn-bord radius-30 secondary-color">
+								className="butn butn-sm butn-bord-2nd radius-30 secondary-color">
 								<span>ሁሉንም ይመልከቱ</span>
 							</a>
 							<span className="icon ti-arrow-top-right"></span>
@@ -30,17 +28,17 @@ function Services() {
 							<div className="icon-img-60 opacity-5 mb-40">
 								<img src="/assets/imgs/serv-icons/3.png" alt="" />
 							</div>
-							<h5>ርዕያችን</h5>
+							<h5>መደበኛ ቁጠባ</h5>
 							<div className="text mt-40">
-								<div className="mb-10">
-									<span className="tag">መካከለኛ ገቢ</span>
-									<span className="tag">ስራ ፈጣሪ</span>
-								</div>
 								<p className="truncate-text">
-									በ2030 ዓ.ም ሁሉም አባላት መካከለኛ ገቢ ያላቸው እና ስራ ፈጣሪ ሁነው ማየት፡፡
+									የማህበሩ አባል የሆኑ ግለሰቦች በመደበኛነት የሚቆጥቡት ገንዘብ ሲሆን መጠኑም በወር ብር
+									400.00፣ በሳምንት ብር 200.00፣ በቀን ብር 50.00 ሲሆን፡፡ የወለድ መጠኑ በዓመት 7.5%
+									በመቶ ይሆናል፡፡ መደበኛ ቁጠባ አባሉ ከማህበሩ እስካልተሰናበተ ድረስ ወጪ ሆኖ ሊከፈል አይችልም፡፡
+									ሆኖም ያለዋስትና የብድር ፎርማሊቲዎችን በሟሟላት 95% በመቶ የቁጠባ እና የዕጣ መጠኑን በብድር
+									ወስዶ ወለዱን ሊጠቀምበት ይችላል፡፡
 								</p>
 							</div>
-							<a href="/page-services-details" className="mt-40">
+							<a href="/page-services" className="mt-120">
 								<span className="ti-arrow-top-right"></span>
 							</a>
 						</div>
@@ -48,46 +46,98 @@ function Services() {
 					<div className="col-lg-4">
 						<div className="item sub-bg md-mb30 fixed-height-card">
 							<div className="icon-img-60 opacity-5 mb-40">
-								<img src="/assets/imgs/serv-icons/4.png" alt="" />
+								<img src="/assets/imgs/serv-icons/3.png" alt="" />
 							</div>
-							<h5>ተልዕኳችን</h5>
+							<h5>የፍላጎት ቁጠባ</h5>
 							<div className="text mt-40">
-								<div className="mb-10">
-									<span className="tag">ዘላቂነት ያለው </span>
-									<span className="tag">ሁሉን አቀፍ የፋይናንስ ተቋም መገንባት</span>
-								</div>
 								<p className="truncate-text">
-									በሰለጠነ እና በስነምግባር በታነፀ የሰው ሃይል እና በዘመናዊ ቴክኖሎጂ በመታገዝ ለህብረተሰቡ
-									በፋይናንስ አጠቃቀም ተከታታይ ስልጠና በመስጠት ዘላቂነት ያለው ሁሉን አቀፍ የፋይናንስ ተቋም
-									በመገንባት ምቹ፣ ተደራሽ እና ቀልጣፋ የፋይናንስ አገልግሎት በመስጠት የአባላትን ፍላጎት ማሟላት
-									ነው፡፡
+									የማህበሩ አባላት ከመደበኛ ቁጠባ በተጨማሪ የሚቆጥቡት ገንዘብ ሲሆን መጠኑ የሚወሰነው በተጠቃሚው
+									አቅምና ፍላጎት መሠረት ሲሆን ከብር 100.00 ጀምሮ የቁጠባ ሂሳብ መክፈት የሚቻል ሲሆን ከብር
+									10.00 ጀምሮ መቆጠብ የሚችል ሲሆን የወለድ መጠኑ በዓመት 7% በመቶ ይሆናል፡፡ የፍላጎት
+									ቁጠባውን አባሉ ለብድር ዋስትና ሊያቀርበው ይችላል፡፡ በተጨማሪም አባሉ በማንኛውም ጊዜ ወጪ
+									ሊያደርገው ይችላል፡፡ ሆኖም ግን ገንዘቡ በዋስትናነት ካልተያዘ ብቻ ነው፡፡
 								</p>
 							</div>
-							<a href="/page-services-details" className="mt-40">
+							<a href="/page-services" className="mt-120">
 								<span className="ti-arrow-top-right"></span>
 							</a>
 						</div>
 					</div>
 					<div className="col-lg-4">
-						<div className="item sub-bg fixed-height-card">
+						<div className="item sub-bg md-mb30 fixed-height-card">
 							<div className="icon-img-60 opacity-5 mb-40">
-								<img src="/assets/imgs/serv-icons/5.png" alt="" />
+								<img src="/assets/imgs/serv-icons/3.png" alt="" />
 							</div>
-							<h5>ዓላማዎቻችን</h5>
+							<h5>የቤት ቁጠባ</h5>
 							<div className="text mt-40">
-								<div className="mb-10">
-									<span className="tag">የፋይናንስ አጠቃቀም ማሻሻል</span>
-									<span className="tag">የተለያዩ የቁጠባ አገልግሎቶች ማስፋፋት</span>
-								</div>
 								<p className="truncate-text">
-									የፋይናንስ ትምህርትና ስልጠና በመስጠት የፋይናንስ አጠቃቀም ንቃተ ህሊና በማሻሻል አባላትን በስፋት
-									ማፍራት፣ የአባላትን ፍላጎት መሰረት ያደረገ የተለያዩ የቁጠባ አገልግሎቶች በማስፋፋት ቁጠባን
-									በስፋት ማሰባሰብ፣ የአባላትን እና ደንበኞችን ፍላጎት መሰረት ያደረገ የተለያዩ የብድር
-									አገልግሎቶችን በማስፋፋት የብድር አገልግሎትን በብዛት፣ በጥራት እና በተመጣጣኝ ዋጋ ለአባላት
-									በማቅረብ የኢንቨስትመንት አቅም ለማሳደግ፣
+									አባላት የቤት ብድር ለመውሰድ በቅድሚያ ከሶስት ወራት ለማያንስ ጊዜ ገደብ ውስጥ የብድሩን ከ25
+									አስከ 40 በመቶ ቅድመ መቆጠብ ይጠበቅባቸዋል፡፡
 								</p>
 							</div>
-							<a href="/page-services-details" className="mt-40">
+							<a href="/page-services" className="mt-140">
+								<span className="ti-arrow-top-right"></span>
+							</a>
+						</div>
+					</div>
+					<div className="col-lg-4">
+						<div className="item sub-bg md-mb30 fixed-height-card">
+							<div className="icon-img-60 opacity-5 mb-40">
+								<img src="/assets/imgs/serv-icons/3.png" alt="" />
+							</div>
+							<h5>የመኪና ቁጠባ</h5>
+							<div className="text mt-40">
+								<p className="truncate-text">
+									አባላት የመኪና ብድር ለመውሰድ በቅድሚያ ከሶስት ወራት ለማያንስ ጊዜ ገደብ ውስጥ የብድሩን ከ25
+									አስከ 40 በመቶ ቅድመ መቆጠብ ይጠበቅባቸዋል፡፡
+								</p>
+							</div>
+							<a href="/page-services" className="mt-120">
+								<span className="ti-arrow-top-right"></span>
+							</a>
+						</div>
+					</div>
+					<div className="col-lg-4">
+						<div className="item sub-bg md-mb30 fixed-height-card">
+							<div className="icon-img-60 opacity-5 mb-40">
+								<img src="/assets/imgs/serv-icons/3.png" alt="" />
+							</div>
+							<h5>የልጆች ቁጠባ</h5>
+							<div className="text mt-40">
+								<p className="truncate-text">
+									እድሜያቸው ከ18 አመት በታች የሆኑ ህፃናት በማህበራችን ቆጣቢ መሆን ይችላሉ፡፡ ህፃናት ማህበራችን
+									ላይ ቁጠባ ሲጀምሩ መመዝገቢያ አያስፈልጋቸውም፡፡ የህፃናት ቁጠባ ህብረት ስራ እና የቁጠባ ባህልን
+									ለህፃናት ማስለመድ በመሆኑ የቁጠባ መጠኑ ከ100.00 ይጀምራል፡፡ ህፃናት ማህበራችን ላይ እየቆጠቡ
+									ቆይተው እድሜያቸው 18 አመት ሲሞላ ያለ መመዝገቢያ ክፍያ ሌሎችን መስፈርት ካሟሉ ማህበሩ ላይ ዕጣ
+									በመግዛት አባል ይሆናሉ፡፡ ማህበሩ ላይ ህፃናት የሚቆጥቡት የአባላትም አባል ያልሆኑም ወላጆች ልጆች
+									መሆን ይችላሉ፡፡ ህፃናት ለቆጠቡት ቁጠባ ወለድ ያገኛሉ መጠኑ 8.5 በመቶ ይሆናል፡፡ የቁጠባ ወለድ
+									በቁጠባ ላይ የሚደመር እንጂ በየጊዜው የሚከፈል አይደለም፡፡ የልጆች ቁጠባ ሂሳብ ከወላጆች ጋር
+									በጣምራ የሚከፈት ሂሳብ በፈለጉት ጊዜ ወጭ ማድረግ የሚችሉበት በስማቸው ብቻ የሚከፈት ቁጠባ
+									እድሜያቸው 18 ሲሆን ብቻ ወጭ ማድረግ እንዲችሉበት የሂሳብ አርዕስት ከፍተው ማስቀመጥ ይችላሉ፡፡
+								</p>
+							</div>
+							<a href="/page-services" className="mt-120">
+								<span className="ti-arrow-top-right"></span>
+							</a>
+						</div>
+					</div>
+					<div className="col-lg-4">
+						<div className="item sub-bg md-mb30 fixed-height-card">
+							<div className="icon-img-60 opacity-5 mb-40">
+								<img src="/assets/imgs/serv-icons/3.png" alt="" />
+							</div>
+							<h5>የጊዜ ገደብ ቁጠባ</h5>
+							<div className="text mt-40">
+								<p className="truncate-text">
+									በማህበሩ ውስጥ ለተወሰነ ጊዜ ወጪ ሳይደረግ የሚቀመጥ ነው፡፡ ሆኖም ግን የጊዜ ገደቡ ከሶስት ወራት
+									ማነስ የለበትም፡፡ መጠኑ ዝቅተኛው ብር 100,000.00 ሲሆን የወለድ መጠን በዓመት ከ10 እስከ
+									15 % በመቶ ይሆናል፡፡ ከብር 500,000.00 በላይ ሆኖ ከሁለት ዓመት በላይ የሚቀመጥ ቁጠባ
+									ከሆነ የወለድ መጠኑ በሥራ አመራር ኮሚቴ ስምምነት የሚወሰን ይሆናል ሆኖም ግን ከ16% በላይ
+									አይሆንም፡፡ አባሉ የጊዜ ገደብ ቁጠባውን ለብድር ዋስትናነት ማስያዝ ይችላል፡፡ ለብድር ዋስትናነት
+									የተያዘ የጊዜ ገደብ ቁጠባ ብድር ዋስትናው እስኪነሳ ደረስ ለአባሉ ወጪ ሆኖ አይከፈለም፡፡
+								</p>
+							</div>
+							<a href="/page-services" className="mt-120">
 								<span className="ti-arrow-top-right"></span>
 							</a>
 						</div>
