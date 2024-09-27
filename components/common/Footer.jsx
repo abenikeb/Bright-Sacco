@@ -53,11 +53,11 @@ function Footer() {
 							<h6 className="sub-title mb-30">አድራሻ</h6>
 							<h6 className="p-colors fw-400">አራት ኪሎ ንብ ባንክ 1ኛ ፎቅ</h6>
 							<h6 className="mt-30 mb-15">
-								<a href="#0">info@brightsacco.coop</a>
+								<a href="#0">info@brightsacco.com</a>
 							</h6>
 							<a href="#0" className="underline">
 								<span className="fz-22 main-color">
-									+251 960601111/960111166
+									+251 960401111/960111166
 								</span>
 							</a>
 						</div>

@@ -46,13 +46,11 @@ export default function Home() {
 						<div className="container service-conatiner">
 							<div className="sec-head mb-80">
 								<div className="row">
-									<div className="col-lg-4">
-										<h6 className="title-bord mb-30 secondary-color">
-											አገልግሎቶቻችን
-										</h6>
-									</div>
 									<div className="col-lg-8">
 										<div className="text secondary-color">
+											<h6 className="title-bord mb-30 secondary-color">
+												አገልግሎቶቻችን
+											</h6>
 											<h5 className="about-us-content text-bright mb-30">
 												ከአባላት የመመዝገቢያ ክፍያ 1000.00፣ 1 ዕጣ 100.00 ብር የሆነ ለአዲስ አባል
 												ዝቅተኛ 15 ዕጣ መሸጥ እና አባት{" "}
@@ -79,6 +77,15 @@ export default function Home() {
 												የገንዘብ ተቋማት ብድር መበደር፣ የአስተዳድሩልኝ ገንዘብ መቀበል እና ማስተዳደር እና
 												የኮር ባንኪንግ አገልግሎት መስጠት፡፡
 											</p>
+										</div>
+									</div>
+									<div className="col-lg-4">
+										<div className="img md-mb50">
+											<img src="/assets/imgs/arw9.png" alt="" />
+										</div>
+										<br></br>
+										<div className="img md-mb50">
+											<img src="/assets/imgs/arw10.png" alt="" />
 										</div>
 									</div>
 								</div>

@@ -118,7 +118,7 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link" href={getLink("/page-testimonials")}>
+							<Link className="nav-link" href={getLink("/page-publication")}>
 								<span className="rolling-text">
 									{language === "am"
 										? "ምርምር እና ህትመት"
@@ -155,7 +155,7 @@ function Navbar() {
 
 				<div
 					className="language-dropdown"
-					style={{ marginLeft: "auto", display: "flex", alignItems: "center" }}>
+					style={{ display: "flex", alignItems: "center" }}>
 					<select
 						value={language}
 						onChange={handleLanguageChange}

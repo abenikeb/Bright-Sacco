@@ -19,19 +19,19 @@ function Team() {
 		},
 		{
 			img: "/assets/imgs/team/4.png",
-			name: "ሳባ ታደሰ",
-			subName: "ኦፕሬሽንስ አስተዳዳሪ",
+			name: "እንዳለ ስዩም",
+			subName: "የማርኬቲንግ ክፍል ኮሚቴ አባል።",
 		},
-		{
-			img: "/assets/imgs/team/5.png",
-			name: "ገነት ሀይሉ",
-			subName: "የሰው ሀብት ሥራ አስኪያጅ",
-		},
-		{
-			img: "/assets/imgs/team/1.png",
-			name: "አህመድ ካሊድ",
-			subName: "የሰው ሀብት ሥራ አስኪያጅ",
-		},
+		// {
+		// 	img: "/assets/imgs/team/5.png",
+		// 	name: "ገነት ሀይሉ",
+		// 	subName: "የሰው ሀብት ሥራ አስኪያጅ",
+		// },
+		// {
+		// 	img: "/assets/imgs/team/1.png",
+		// 	name: "አህመድ ካሊድ",
+		// 	subName: "የሰው ሀብት ሥራ አስኪያጅ",
+		// },
 	];
 
 	return (
@@ -94,7 +94,7 @@ function Team() {
 						</div>
 					))}
 
-					<div className="col-lg-3 col-md-6">
+					{/* <div className="col-lg-3 col-md-6">
 						<div className="item-bord d-flex align-items-center justify-content-center mb-50 secondary-color">
 							<div>
 								<h5>
@@ -105,7 +105,7 @@ function Team() {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div className="circle-blur">

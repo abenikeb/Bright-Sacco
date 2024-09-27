@@ -77,6 +77,42 @@ function Portfolio() {
 									<div>
 										<div className="mb-15">
 											<a href="/portfolio-grid" className="tag">
+												የመኪና
+											</a>
+											<a href="/portfolio-grid" className="tag">
+												ቁጠባ
+											</a>
+										</div>
+										<h4>የመኪና ቁጠባ</h4>
+									</div>
+									<div>
+										<p>
+											አባላት የመኪና ብድር ለመውሰድ በቅድሚያ ከሶስት ወራት ለማያንስ ጊዜ ገደብ ውስጥ የብድሩን
+											ከ25 አስከ 40 በመቶ ቅድመ መቆጠብ ይጠበቅባቸዋል፡፡
+										</p>
+										<a href="/page-services" className="underline mt-15">
+											<span className="text main-color sub-title">
+												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-7">
+								<div className="img">
+									<img src="/assets/imgs/works/1/3.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div className="card-item sub-bg">
+						<div className="row">
+							<div className="col-lg-5">
+								<div className="cont">
+									<div>
+										<div className="mb-15">
+											<a href="/portfolio-grid" className="tag">
 												መደበኛ
 											</a>
 											<a href="/portfolio-grid" className="tag">
@@ -104,7 +140,7 @@ function Portfolio() {
 							</div>
 							<div className="col-lg-7">
 								<div className="img">
-									<img src="/assets/imgs/works/1/3.jpg" alt="" />
+									<img src="/assets/imgs/works/1/6.jpg" alt="" />
 								</div>
 							</div>
 						</div>
@@ -140,42 +176,7 @@ function Portfolio() {
 							</div>
 							<div className="col-lg-7">
 								<div className="img">
-									<img src="/assets/imgs/works/1/3.jpg" alt="" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="card-item sub-bg">
-						<div className="row">
-							<div className="col-lg-5">
-								<div className="cont">
-									<div>
-										<div className="mb-15">
-											<a href="/portfolio-grid" className="tag">
-												የመኪና
-											</a>
-											<a href="/portfolio-grid" className="tag">
-												ቁጠባ
-											</a>
-										</div>
-										<h4>የመኪና ቁጠባ</h4>
-									</div>
-									<div>
-										<p>
-											አባላት የመኪና ብድር ለመውሰድ በቅድሚያ ከሶስት ወራት ለማያንስ ጊዜ ገደብ ውስጥ የብድሩን
-											ከ25 አስከ 40 በመቶ ቅድመ መቆጠብ ይጠበቅባቸዋል፡፡
-										</p>
-										<a href="/page-services" className="underline mt-15">
-											<span className="text main-color sub-title">
-												ዝርዝሮችን ይመልከቱ <i className="ti-arrow-top-right"></i>
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-7">
-								<div className="img">
-									<img src="/assets/imgs/works/1/5.jpg" alt="" />
+									<img src="/assets/imgs/works/1/4.jpg" alt="" />
 								</div>
 							</div>
 						</div>
@@ -213,7 +214,7 @@ function Portfolio() {
 							</div>
 							<div className="col-lg-7">
 								<div className="img">
-									<img src="/assets/imgs/works/1/4.jpg" alt="" />
+									<img src="/assets/imgs/works/1/5.jpg" alt="" />
 								</div>
 							</div>
 						</div>
@@ -257,7 +258,7 @@ function Portfolio() {
 							</div>
 							<div className="col-lg-7">
 								<div className="img">
-									<img src="/assets/imgs/works/1/5.jpg" alt="" />
+									<img src="/assets/imgs/works/1/2.jpg" alt="" />
 								</div>
 							</div>
 						</div>

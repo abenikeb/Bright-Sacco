@@ -20,6 +20,9 @@ function Intro2() {
 						<div className="img md-mb50">
 							<img src="/assets/imgs/arw2.png" alt="" />
 						</div>
+						<div className="img md-mb50">
+							<img src="/assets/imgs/arw3.jpg" alt="" />
+						</div>
 					</div>
 					<div className="col-lg-6 valign">
 						<div>

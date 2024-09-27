@@ -51,7 +51,7 @@ function Header() {
 										<a
 											href="/page-contact"
 											className="butn butn-md butn-bord radius-30 secondary-color">
-											<span className="text">ዛሬውኑ ይጀምሩ</span>
+											<span className="text">ዛሬውኑ ይመዝገቡ</span>
 										</a>
 										<div className="icon-img-60 ml-20">
 											<img
@@ -68,11 +68,11 @@ function Header() {
 				<div className="info d-flex align-items-center justify-content-end mt-100">
 					<div className="item">
 						<h6 className="sub-title mb-10">ኢሜይል :</h6>
-						<span className="p-color">info@brightsacco.coop</span>
+						<span className="p-color">info@brightsacco.com</span>
 					</div>
 					<div className="item">
 						<h6 className="sub-title mb-10">ስልክ :</h6>
-						<span className="p-color">+251 960601111 | 960111166</span>
+						<span className="p-color">+251 960401111 | 960111166</span>
 					</div>
 					<div className="item">
 						<h6 className="sub-title mb-10">አድራሻ :</h6>

@@ -140,7 +140,7 @@ function Contact() {
 									<h6 className="contact-title">ስልክ</h6>
 									<p>
 										<a href="tel:+251913228892" className="contact-link">
-											+251 960601111/960111166
+											+251 960401111/960111166
 										</a>
 									</p>
 								</div>
@@ -152,7 +152,7 @@ function Contact() {
 										<a
 											href="mailto:support@brighsacco.com"
 											className="contact-link">
-											info@brightsacco.coop
+											info@brightsacco.com
 										</a>
 									</p>
 								</div>
