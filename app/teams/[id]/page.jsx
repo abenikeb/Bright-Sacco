@@ -7,19 +7,35 @@ import { teamData } from '@/data/data'
 import Link from 'next/link'
 
 export async function generateMetadata({ params }) {
-  // const teams = teamData.find((career) => career.id == params.id)
-  // return {
-  //   title: teams?.name,
-  // }
+  const teams = teamData.find((career) => career.id == params.id)
+  return {
+    title: teams?.name,
+  }
   return 
 }
 
 export async function generateStaticParams() {
-  // return teamData.map((team) => ({
-  //   id: team.id.toString(),
-  // }))
+  return teamData.map((team) => ({
+    id: team.id.toString(),
+  }))
   return
 }
+
+const TeamSingle = (props) => {
+  const teamId = props.params.id
+  const data = teamData.find((post) => post.id == teamId)
+
+  return (
+    <>
+      <SecondaryNavbar />
+     
+      <Footer />
+    </>
+  )
+}
+
+export default TeamSingle
+
 
 // const TeamSingle = (props) => {
 //   // const teamId = props.params.id
