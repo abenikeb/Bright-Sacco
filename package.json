@@ -32,6 +32,7 @@
     "react-fast-marquee": "^1.6.5",
     "react-markdown": "^9.0.1",
     "sass": "^1.79.4",
+    "sharp": "^0.33.5",
     "swiper": "^8.4.7",
     "tailwind-merge": "^2.5.2"
   },
