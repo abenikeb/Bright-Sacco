@@ -1,23 +1,25 @@
-// import Footer from '@/components/footer/Footer'
-// import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
-// import ContactForm from '@/components/shared/ContactForm'
-// import NewsLetter from '@/components/shared/NewsLetter'
-// import TeamMember from '@/components/team/TeamMember'
-// import { teamData } from '@/data/data'
-// import Link from 'next/link'
+import Footer from '@/components/footer/Footer'
+import SecondaryNavbar from '@/components/navbar/SecondaryNavbar'
+import ContactForm from '@/components/shared/ContactForm'
+import NewsLetter from '@/components/shared/NewsLetter'
+import TeamMember from '@/components/team/TeamMember'
+import { teamData } from '@/data/data'
+import Link from 'next/link'
 
-// export async function generateMetadata({ params }) {
-//   const teams = teamData.find((career) => career.id == params.id)
-//   return {
-//     title: teams?.name,
-//   }
-// }
+export async function generateMetadata({ params }) {
+  // const teams = teamData.find((career) => career.id == params.id)
+  // return {
+  //   title: teams?.name,
+  // }
+  return 
+}
 
-// export async function generateStaticParams() {
-//   return teamData.map((team) => ({
-//     id: team.id.toString(),
-//   }))
-// }
+export async function generateStaticParams() {
+  // return teamData.map((team) => ({
+  //   id: team.id.toString(),
+  // }))
+  return
+}
 
 // const TeamSingle = (props) => {
 //   // const teamId = props.params.id
@@ -247,13 +249,3 @@
 // }
 
 // export default TeamSingle
-
-import React from 'react'
-
-const page = () => {
-  return (
-    <div>page</div>
-  )
-}
-
-export default page
