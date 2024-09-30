@@ -7,7 +7,7 @@ function Services() {
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
 						<div>
-							<span className="sub-title main-color mb-5">የእኛ መገለጫ የሆኑ</span>
+							<span className="sub-title main-color mb-5">ዋና ዋና</span>
 							<h3 className="fw-600 fz-50 secondary-color text-u d-rotate wow">
 								<span className="rotate-text">አገልግሎቶቻችን</span>
 							</h3>
@@ -22,7 +22,7 @@ function Services() {
 						</div>
 					</div>
 				</div>
-				<div className="row">
+				<div className="row" style={{ rowGap: "20px" }}>
 					<div className="col-lg-4">
 						<div className="item sub-bg md-mb30 fixed-height-card">
 							<div className="icon-img-60 opacity-5 mb-40">

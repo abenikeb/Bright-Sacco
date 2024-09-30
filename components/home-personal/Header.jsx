@@ -20,8 +20,8 @@ function Header() {
 	}, []);
 	return (
 		<div
-			className="header header-personal valign bg-img"
-			data-background="/assets/imgs/header/full/p113.png"
+			className="header header-bg2 header-personal valign bg-img"
+			// data-background="/assets/imgs/header/full/p113_mobile.png"
 			data-overlay-dark="0">
 			<div className="container ontop">
 				<div className="row">

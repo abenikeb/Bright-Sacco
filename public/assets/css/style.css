@@ -9,6 +9,26 @@
 	font-style: normal;
 }
 
+.header-bg2.bg-img {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+	/* Mobile version */
+	.header-bg2.bg-img {
+		background-image: url("/assets/imgs/header/full/p113_mobile.png");
+	}
+}
+
+@media (min-width: 769px) {
+	/* Desktop version */
+	.header-bg2.bg-img {
+		background-image: url("/assets/imgs/header/full/p113.png");
+	}
+}
+
 /* research-publication */
 .research-publication-container {
 	max-width: 600px;
@@ -567,6 +587,7 @@ main {
 .row > * {
 	padding-left: 15px;
 	padding-right: 15px;
+	
 	margin-top: 0;
 }
 

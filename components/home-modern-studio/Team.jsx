@@ -39,6 +39,7 @@ function Team() {
 			<div className="container">
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
+						<br />
 						<div>
 							<span className="sub-title main-color mb-5">የቡድን አባሎቶቻችን</span>
 							<h3 className="fw-600 fz-50 text-u d-rotate wow">
@@ -47,14 +48,14 @@ function Team() {
 								</span>
 							</h3>
 						</div>
-						<div className="ml-auto vi-more">
+						{/* <div className="ml-auto vi-more">
 							<a
 								href="/page-team"
 								className="butn butn-sm secondary-color butn-bord radius-30">
 								<span>ከእኛ ጋር ይቀላቀሉ</span>
 							</a>
 							<span className="icon ti-arrow-top-right"></span>
-						</div>
+						</div> */}
 					</div>
 				</div>
 				<div className="row md-marg">

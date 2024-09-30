@@ -6,6 +6,7 @@ function Services() {
 			<div className="container ontop">
 				<div className="sec-head mb-80">
 					<div className="d-flex align-items-center">
+						<br />
 						<div>
 							{/* <span className="sub-title main-color mb-5">አጠቃላይ እይታ</span> */}
 							<h3 className="fw-600 fz-50 text-u d-rotate wow">
@@ -30,11 +31,8 @@ function Services() {
 							<div>
 								<span className="num">01</span>
 								<div>
-									<span className="sub-title main-color mb-10">ተልዕኮ</span>
-									<h2>
-										ተደራሽ እና ቀልጣፋ{" "}
-										<span className="fw-200">የፋይናስ አገልግሎት መስጠት</span>
-									</h2>
+									{/* <span className="sub-title main-color mb-10">ተልዕኮ</span> */}
+									<h2 className="main-color">ተልዕኮ</h2>
 								</div>
 							</div>
 						</div>
@@ -64,9 +62,9 @@ function Services() {
 							<div>
 								<span className="num">02</span>
 								<div>
-									<span className="sub-title main-color mb-10">ርዕያችን</span>
+									{/* <span className="sub-title main-color mb-10">ርዕያችን</span> */}
 									<h2>
-										መካከለኛ ገቢ ያላቸው <span className="fw-200">ማየት</span>
+										<span className="fw-200">ርዕያችን</span>
 									</h2>
 								</div>
 							</div>
@@ -92,9 +90,9 @@ function Services() {
 							<div>
 								<span className="num">03</span>
 								<div>
-									<span className="sub-title main-color mb-10">ዓላማዎቻችን</span>
+									{/* <span className="sub-title main-color mb-10">ዓላማዎቻችን</span> */}
 									<h2>
-										የፋይናንስ / <span className="fw-200">ትምህርትና ስልጠና በመስጠት</span>
+										<span className="fw-200">ዓላማዎቻችን</span>
 									</h2>
 								</div>
 							</div>

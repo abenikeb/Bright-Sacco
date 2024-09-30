@@ -14,6 +14,7 @@ function FAQS() {
 	}
 	return (
 		<section className="page-faqs section-padding pb-0 position-re">
+			<br />
 			<div className="container">
 				<div className="row justify-content-center">
 					<div className="col-lg-6">
@@ -139,17 +140,20 @@ function FAQS() {
 						<br />
 						<br />
 						<br />
+						<br />
+						<br />
+						<br />
 					</div>
 				</div>
 			</div>
 			<div className="img1">
-				<img src="/assets/imgs/arw10.png" alt="" />
+				<img src="/assets/imgs/arw14.jpg" alt="" />
 			</div>
 			<div className="img2">
 				<img src="/assets/imgs/arw3.jpg" alt="" />
 			</div>
 			<div className="img3">
-				<img src="/assets/imgs/arw9.png" alt="" />
+				<img src="/assets/imgs/arw13.jpg" alt="" />
 			</div>
 		</section>
 	);
