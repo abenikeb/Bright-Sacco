@@ -1,8 +1,11 @@
 'use client'
 import { TestimonialData } from '@/data/data'
 import Image from 'next/image'
-import { Pagination } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+
+// import { Pagination } from 'swiper/modules'
+// import { Swiper, SwiperSlide } from 'swiper/react'
 import { RatingStars } from './Rating'
 
 const SwiperSlider = () => {

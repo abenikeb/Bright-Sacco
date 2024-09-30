@@ -1,6 +1,6 @@
 'use client'
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 
 const SearchOption = ({ onClose }) => {
@@ -74,17 +74,17 @@ const SearchOption = ({ onClose }) => {
                 <li className="group ">
                   <Link className="  flex items-center justify-between py-5 font-medium" href="/services">
                     Investment Banks
-                    <FontAwesomeIcon icon={faAngleRight} />
+                    {/* <FontAwesomeIcon icon={faAngleRight} /> */}
                   </Link>
                 </li>
                 <li className="group">
                   <Link href="/services" className="  flex items-center justify-between py-5 font-medium">
-                    Financial Analysis <FontAwesomeIcon icon={faAngleRight} />
+                    {/* Financial Analysis <FontAwesomeIcon icon={faAngleRight} /> */}
                   </Link>
                 </li>
                 <li className="group">
                   <Link href="/services" className="flex items-center justify-between py-5 font-medium">
-                    Sales & Trading <FontAwesomeIcon icon={faAngleRight} />
+                    {/* Sales & Trading <FontAwesomeIcon icon={faAngleRight} /> */}
                   </Link>
                 </li>
               </ul>
