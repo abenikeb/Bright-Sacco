@@ -36,7 +36,7 @@ const TeamSingle = (props) => {
               <div className="-ml-[170px] rounded-full  bg-primary-200/30 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
             </div>
 
-            <TeamMember image={data.image} />
+            {/* <TeamMember image={data.image} /> */}
 
             <div>
               <div className="mb-12">
